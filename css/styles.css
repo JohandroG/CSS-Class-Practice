@@ -1,0 +1,77 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    font-size: 20px;
+    color: darkblue;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    background-color: darkblue;
+    padding: 15px;
+    margin: 0;
+    color: white;
+    border: 5px;
+
+}
+
+fieldset{
+    border: 2px dashed darkblue;
+    margin: 20px;
+
+}
+
+legend{
+    font-size: 1.3em;
+    font-weight: 800;
+
+}
+
+label {
+    display:block
+}
+
+fieldset > span {
+    border: 3px solid black;
+    color: blue;
+    padding: 20px 40px;
+    display: block;
+    background: url(./../images/infoicon.png) no-repeat center left rgb(144, 144, 177);
+    text-align: center;
+}
+
+.formElement {
+padding: 5px 10px;
+width: 50%;
+margin-bottom: 15px;
+}
+
+#cancelForm{
+    padding: 5px 15px;
+    width: 200px;
+    text-align: center;
+    background-color: #D9534F;
+    font-size: 1.5em;
+    color: white;
+    border: 0;
+
+}
+
+#submitForm{
+    padding: 5px 15px;
+    width: 200px;
+    text-align: center;
+    background-color: #4fd99f;
+    font-size: 1.5em;
+    color: white;
+    border: 0;
+
+}
+
+#submitForm:hover{
+    cursor: pointer;
+    background-color: yellowgreen;
+}
