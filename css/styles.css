@@ -76,3 +76,36 @@ margin-bottom: 15px;
     background-color: yellowgreen;
 }
 
+.menu > li{
+    padding: 20px;
+    margin-right: 20px;
+
+}
+
+.menu >li:hover{
+    cursor: pointer;
+    background-color: grey;
+
+}
+
+h1{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+
+
+}
+
+nav{
+    padding-top: 80px;
+}
+
+fieldset{
+    position: relative;
+}
+
+span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
